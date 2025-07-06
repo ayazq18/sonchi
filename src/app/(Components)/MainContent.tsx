@@ -21,7 +21,7 @@ function PropertyCard() {
             style={{ borderRadius: "0 40px 0 40px" }}
           />
           <div
-            style={{ borderRadius: "5px 0px 0 5px" }}
+            style={{ borderRadius: "5px 0px 0 5px",  fontFamily: "Manrope"  }}
             className="absolute bottom-0 right-0 bg-[#149E75] text-white px-2 py-1 text-xs font-bold"
           >
             ₹ 60 OFF
@@ -29,7 +29,7 @@ function PropertyCard() {
         </div>
 
         {/* Content */}
-        <div className="p-4">
+        <div style={{ fontFamily: "Manrope", fontWeight:'bold' }} className="p-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-1 mb-2">
               <Image
@@ -38,14 +38,14 @@ function PropertyCard() {
                 width={25}
                 height={25}
               />
-              <p className="font-semibold text-[#272D2F] text-[14px] leading-[14px]">
+              <p className=" text-[#272D2F] text-[14px] leading-[14px]">
                 Aditi Sharma
               </p>
             </div>
 
             <div className="flex items-center gap-2">
               <Star className="w-[22px] h-[22px] fill-yellow-400 text-yellow-400" />
-              <span className="text-[16px] leading-[16px] font-semibold text-gray-800 ">
+              <span className="text-[16px] leading-[16px] text-gray-800 ">
                 5.0
               </span>
             </div>
@@ -59,7 +59,7 @@ function PropertyCard() {
               width={25}
               height={25}
             />
-            <p className="font-semibold text-[#272D2F] text-[14px] leading-[14px]">
+            <p className=" text-[#272D2F] text-[14px] leading-[14px]">
               Vijay Nagar, Indore
             </p>
           </div>
@@ -72,7 +72,7 @@ function PropertyCard() {
               width={25}
               height={25}
             />
-            <p className="font-semibold text-[#272D2F] text-[14px] leading-[14px]">
+            <p className=" text-[#272D2F] text-[14px] leading-[14px]">
               Gujarati Dishes
             </p>
           </div>
@@ -85,7 +85,7 @@ function PropertyCard() {
               width={25}
               height={25}
             />
-            <p className="font-semibold text-[#272D2F] text-[12px] leading-[12px] w-[200px] whitespace-nowrap text-ellipsis">
+            <p className=" text-[#272D2F] text-[12px] leading-[12px] w-[200px] whitespace-nowrap text-ellipsis">
               I am a musician turned home chef...
             </p>
           </div>
