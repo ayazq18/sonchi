@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <div className="relative h-[484px] flex flex-col justify-center items-center">
-      <div className="sticky top-[400px] z-99 w-full bg-[#e9e9f1a2] flex justify-between items-center p-4 max-h-fit sm:max-h-[100px] gap-4">
+      <div className="fixed top-0 z-99 w-full bg-[#e9e9f1a2] flex justify-between items-center p-4 max-h-fit sm:max-h-[100px] gap-4">
         {/* Menu icon on small screens */}
         <div className="sm:hidden flex items-center">
           <Menu
