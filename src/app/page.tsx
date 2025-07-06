@@ -13,7 +13,7 @@ export default function Home() {
         <MainContent />
       </main>
 
-      <footer className="border border-red-500 h-[464px]">
+      <footer className=" h-[464px]">
         <Footer />
       </footer>
     </div>
